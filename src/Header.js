@@ -211,12 +211,18 @@ function Header() {
               </ul>
               <ul className="shop-menu-column">
                 <li>
-                  <a href="https://www.instagram.com/bloomingtalestudio?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                  <a
+                    href="https://www.instagram.com/bloomingtalestudio?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                    className="sub-menu"
+                  >
                     블루밍테일 Instagram
                   </a>
                 </li>
                 <li>
-                  <a href="https://x.com/bloomingtale?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                  <a
+                    href="https://x.com/bloomingtale?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                    className="sub-menu"
+                  >
                     블루밍테일 X(Twitter)
                   </a>
                 </li>
@@ -232,12 +238,12 @@ function Header() {
         <div className="right-sub joinus">
           <Link to="/join-us">Join Us</Link>
         </div>
-        <div className="right-sub cart">
+        <div className="right-sub-icon cart">
           <Link to="/cart">
             <FontAwesomeIcon icon={faCartShopping} />
           </Link>
         </div>
-        <div className="right-sub search">
+        <div className="right-sub-icon search">
           <Link to="/search">
             <FontAwesomeIcon icon={faMagnifyingGlass} />
           </Link>

@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 import Header from "./Header";
 import "./css/reset.css";
+import Main from "./Main";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
         <Header />
         <Routes>
           {/* ----- 메인 화면 ----- */}
-          {/* <Route path="/" element={<Main />} /> */}
+          <Route path="/" element={<Main />} />
 
           {/* ----- 메뉴 ----- */}
 
