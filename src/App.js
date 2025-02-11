@@ -1,6 +1,8 @@
 import React from "react";
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 import Header from "./Header";
+import "./css/reset.css";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function App() {
   return (
@@ -15,8 +17,8 @@ function App() {
 
           {/* -- 1. Shop -- */}
           {/* <Route path="/shop-new" element={<New />} /> */}
-          <Route path="/shop-best" element={<Best />} />
-          <Route path="/shop-collab" element={<New />} />
+          {/* <Route path="/shop-best" element={<Best />} /> */}
+          {/* <Route path="/shop-collab" element={<Collaboration />} /> */}
 
           {/* ----- Log In 로그인 ----- */}
           {/* <Route path="/log-in" element={<Login />} /> */}
