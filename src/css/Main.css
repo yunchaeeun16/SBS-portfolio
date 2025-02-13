@@ -1,13 +1,16 @@
-.img-wrap {
-  width: 100%;
-  height: 900px;
+.swiper-button-next,
+.swiper-button-prev,
+.swiper-button-disabled,
+.swiper-pagination-bullet {
+  color: #f3adc8 !important;
 }
 
-.mySwiper {
-  width: 100%;
-  height: 800px;
+.wrap {
+  z-index: 1;
 }
 
 .img {
+  width: 100%;
+  height: 700px;
   object-fit: cover;
 }

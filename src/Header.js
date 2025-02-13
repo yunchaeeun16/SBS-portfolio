@@ -215,7 +215,7 @@ function Header() {
                     href="https://www.instagram.com/bloomingtalestudio?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                     className="sub-menu"
                   >
-                    블루밍테일 Instagram
+                    Instagram
                   </a>
                 </li>
                 <li>
@@ -223,7 +223,7 @@ function Header() {
                     href="https://x.com/bloomingtale?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
                     className="sub-menu"
                   >
-                    블루밍테일 X(Twitter)
+                    X(Twitter)
                   </a>
                 </li>
               </ul>

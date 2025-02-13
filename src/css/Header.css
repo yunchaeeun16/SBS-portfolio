@@ -6,6 +6,7 @@
   justify-content: space-between;
   margin: 0 auto;
   position: sticky;
+  z-index: 999;
 
   /* background-color: red; */
 }
@@ -47,7 +48,7 @@
   height: 0;
   display: flex;
   overflow: hidden;
-  margin-top: 8px;
+  padding-top: 8px;
   justify-content: space-between;
   position: absolute;
   left: 20.5px;
@@ -55,11 +56,11 @@
 }
 
 .offline-wrap {
-  width: 187.5px;
+  width: 150px;
   height: 0;
   display: flex;
   overflow: hidden;
-  margin-top: 8px;
+  padding-top: 8px;
   justify-content: space-between;
   position: absolute;
   transition-duration: 0.3s;
@@ -73,7 +74,7 @@
   position: absolute;
   right: 18px;
   justify-content: space-between;
-  margin-top: 8px;
+  padding-top: 8px;
   transition-duration: 0.3s;
 }
 
@@ -99,6 +100,7 @@
 }
 
 .top-menu p:hover {
+  box-sizing: border-box;
   border-bottom: 1.2px solid #363636;
   font-family: "Pretendard-Regular";
   font-size: 18px;
@@ -106,18 +108,22 @@
 
 .top-menu:first-child:hover > .sub-nav {
   height: 180px;
+  background-color: rgba(255, 255, 255, 0.85);
 }
 
 .top-menu:nth-child(2):hover > .sub-nav {
   height: 135px;
+  background-color: rgba(255, 255, 255, 0.85);
 }
 
 .top-menu:nth-child(3):hover > .offline-wrap {
   height: 90px;
+  background-color: rgba(255, 255, 255, 0.85);
 }
 
 .top-menu:nth-child(4):hover > .community-wrap {
   height: 135px;
+  background-color: rgba(255, 255, 255, 0.85);
 }
 
 .right-menu {
